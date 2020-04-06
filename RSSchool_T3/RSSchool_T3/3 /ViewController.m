@@ -46,7 +46,7 @@
     self.buttonProcess = [UIButton buttonWithType:UIButtonTypeSystem];
     self.buttonProcess.frame = CGRectMake(WIDTH_SCREEN/2-60, HEIGHT_SCREEN/2, 120, 35);
     [self.buttonProcess setTitle:@"Process" forState:UIControlStateNormal];
-    self.buttonProcess.titleLabel.textColor = UIColor.systemBlueColor;
+    self.buttonProcess.titleLabel.textColor = UIColor.blueColor;
     [self.buttonProcess addTarget:self action:@selector(pressButton) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview: self.buttonProcess];
 }
